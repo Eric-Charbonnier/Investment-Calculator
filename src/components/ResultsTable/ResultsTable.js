@@ -1,5 +1,19 @@
 import classes from './ResultsTable.module.css';
 
+
+/**
+* Ce composant affiche un tableau récapitulatif des investissements calculés par année.
+* Il utilise 'Intl.NumberFormat' pour formater les montants en dollars américains, en
+* assurant que les montants sont affichés avec deux décimales.
+*
+* Les données sont passées via les props et sont utilisées pour remplir le tableau.
+* Les commentaires dans le corps <tbody> du tableau donnent un exemple de ce à quoi
+* chaque colonne correspond.
+*
+* @param {Object[]} props.data - Les données des investissements pour chaque année.
+* @param {number} props.initialInvestment - Le montant initial investi.
+*/
+
 const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',

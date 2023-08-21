@@ -123,7 +123,7 @@ export default App;
 
 
 
-// comprendre les différences entre l'état dérivé et l'état géré explicitement.
+// comprendre les différences entre l'état dérivé et l'état géré explicitement. direved state vs managed state, alternative
 
 // ### 1. État Dérivé (Version Originale)
 
