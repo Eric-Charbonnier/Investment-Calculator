@@ -28,7 +28,7 @@ const UserInput = (props) => { // ajout des props une fois qu'on bascule travail
     setUserInput((prevInput) => {
       return {
         ...prevInput,
-        [input]: +value, //on set une des 4 propietees [current-savings ou autre]: dependemmenet a ce qui es storé dans input  a notre valeur. c'est comme caqu'on change le tat dynamiquement de l object qui est dans le return quand le inputChangeHandkler est executé
+        [input]: +value, //on set une des 4 propietees [current-savings ou autre]: dependemmenet a ce qui es storé dans input  a notre valeur. c'est comme caqu'on change le tat dynamiquement de l object qui est dans le return quand le inputChangeHandkler est executé // the "+" converts the string value to a number
       };
     });
   };
